@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+	<Button 
+		  android:id="@+id/btn_sin" 
+		  android:layout_width="wrap_content" 
+		  android:layout_height="wrap_content" 
+		  android:text="draw1" 
+		  /> 
+	 <Button 
+		  android:id="@+id/btn_cos" 
+		  android:layout_width="wrap_content" 
+		  android:layout_height="wrap_content" 
+		  android:text="draw2" 
+		  /> 
+
+	 <SurfaceView
+	     android:id="@+id/sv_show"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	      />
+    
+</LinearLayout>
